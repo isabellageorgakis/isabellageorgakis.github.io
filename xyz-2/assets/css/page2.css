@@ -1,0 +1,56 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color:red;
+}
+
+.datetitle {
+	font-family: monaco;
+	font-size: 40px;
+	font-style: italic;
+	text-align: center;
+	padding: 20px;
+}
+
+.message {
+	font-family: monaco;
+	font-size: 80px;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: indianred;
+
+
+}
+
+.message2 {
+	font-family: monaco;
+	font-size: 80px;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: crimson;
+	text-align: center;
+}
+
+.message3 {
+	font-family: monaco;
+	font-size: 80px;
+	font-weight: bold;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: darkred;
+	text-align: right;
+}
+
+.posternumber {
+	padding: 20px;
+	font-family: monaco;
+	font-style: italic;
+	text-align: center;
+	font-size: 40px;

@@ -1,0 +1,70 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color:red;
+}
+
+.posternumber {
+	padding: 20px;
+	font-size: 20px;
+}
+
+.message {
+	padding: 50px;
+	font-family: tahoma;
+	font-style: italic;
+	background-color: powderblue;
+	font-size: 20px;
+	border-left: solid;
+	border-right: dotted;
+	border-color: magenta;
+	border-width: 300px;
+
+}
+
+.date {
+	font-style: italic;
+	text-align: left;
+	padding: 10px;
+	padding-top: 50px;
+	font-size: 40px;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 100px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+}
+
+.mada {
+	padding: 10px;
+	text-align: right;
+	font-size: 40px;
+	padding-bottom: 50px;
+	border: solid;
+	border-color: black;
+	border-width: 5px;
+}
+
+.message2 {
+	padding: 50px;
+	font-family: tahoma;
+	font-style: italic;
+	background-color: violet;
+	font-size: 20px;
+	border-left: dotted;
+	border-right: solid;
+	border-color: cyan;
+	border-width: 300px;
+}

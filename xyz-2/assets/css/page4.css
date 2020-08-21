@@ -1,0 +1,104 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color:red;
+}
+
+
+.mada {
+	padding: 10px;
+	font-size: 40px;
+	padding-bottom: 200px;
+	background-color: black;
+	color: honeydew;
+	text-align: left;
+}
+
+.title {
+	text-transform: uppercase;
+	font-size: 100px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	background-color: black;
+	color: honeydew;
+	text-align: left;
+}
+
+.message {
+	padding: 20px;
+	font-family: tahoma;
+	font-style: italic;
+	background-color: lavenderblush;
+	font-size: 20px;
+	border-left: ridge;
+	border-right: ridge;
+	border-color: honeydew;
+	border-width: 300px;
+}
+
+.message2 {
+	font-family: tahoma;
+	font-size: 50px;
+	background-color: honeydew;
+	border-left: ridge;
+	border-right: ridge;
+	border-color: thistle;
+	border-width: 300px;
+}
+
+.message3 {
+	padding: 50px;
+	font-family: tahoma;
+	background-color: thistle;
+	font-size: 100px;
+	border-left: ridge;
+	border-right: ridge;
+	border-color: honeydew;
+	border-width: 300px;
+}
+
+.message4 {
+	font-family: tahoma;
+	font-size: 50px;
+	background-color: honeydew;
+	border-left: ridge;
+	border-right: ridge;
+	border-color: thistle;
+	border-width: 300px;
+}
+
+.message5 {
+	padding: 20px;
+	font-family: tahoma;
+	font-style: italic;
+	background-color: lavenderblush;
+	font-size: 20px;
+	border-left: ridge;
+	border-right: ridge;
+	border-color: honeydew;
+	border-width: 300px;
+}
+
+.posternumber {
+	padding: 10px;
+	font-family: monaco;
+	font-style: italic;
+	text-align: right;
+	font-size: 40px;
+	background-color: black;
+	color: honeydew;
+}
+
+.date {
+	font-family: monaco;
+	font-style: italic;
+	text-align: right;
+	padding-top: 200px;
+	padding-right: 10px;
+	background-color: black;
+	color: honeydew;
+}
