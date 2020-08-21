@@ -1,0 +1,56 @@
+.word1 {
+	font-family: monaco;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 800px;
+	transform: rotate(90deg);
+}
+.word2 {
+	font-family: monaco;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.word3 {
+	font-family: monaco;
+	font-size: 40px;
+	text-transform: uppercase;
+	text-align: right;
+	margin-top: 100px;
+	transform: rotate(90deg);
+}
+
+.mada {
+	font-family: monaco;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: fixed;
+	bottom: 20px;
+	right: 0px;
+	
+}
+
+.OPE {
+	font-family: monaco;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+	
+	
+}
+
+.date {
+	font-family: monaco;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: fixed;
+	bottom: 20px;
+	right: 200px;
+	
+
+
+}

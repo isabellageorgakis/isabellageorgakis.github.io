@@ -1,0 +1,30 @@
+.word1 {
+	color: white;
+	background: black;
+	border: 5px solid red;
+	display: inline-block;
+	width: 475px;
+	padding: 30px;
+	
+
+}
+
+.word2 {
+	border: 5px solid red;
+	background: grey;
+	display: inline-block;
+	width: 475px;
+	padding: 30px;
+
+
+}
+
+.word3 {
+	color: grey;
+	border: 5px solid red;
+	background: white;
+	display: inline-block;
+	width: 475px;
+	padding: 30px;
+
+}

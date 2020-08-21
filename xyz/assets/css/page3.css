@@ -1,0 +1,27 @@
+.message {
+	font-family: helvetica;
+	font-size: 80px;
+	text-align: center;
+	width: 1100px;
+	margin-top: 300px;
+	transform: rotateZ(30deg);
+	animation: rotate 60s infinite;
+	transform-origin: center;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotateZ(360deg);
+	}
+	100% {
+		transform: rotateZ(0deg);
+	}
+}
+
+.datetitle {
+	font-family: helvetica;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: fixed;
+	top: 0px;
+	right: 10px;

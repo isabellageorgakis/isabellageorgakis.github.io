@@ -1,0 +1,73 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	text-align: center;
+}
+
+a {
+	color:red;
+}
+
+
+span {
+	color:red;
+}
+
+.message {
+	font-size: 100px;
+
+}
+
+.box {
+	width: 100%;
+	background-color: red;
+	color: white;
+	position: fixed;
+	bottom: 20px;
+	white-space: nowrap; 
+	overflow: scroll;
+}
+
+.square {
+	width: 600px;
+	height: 200px;
+	border: 3px solid;
+	border-color: magenta; 
+	border-radius: 50%;
+	transform: rotate(40deg);
+	margin-left: 200px;
+	box-shadow: 00px 00px 20px 20px magenta;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	animation: grow 5s infinite alternate linear; 
+
+
+
+}
+
+@keyframes grow {
+	0% {
+		width: 200px;
+		height: 200px;
+		bottom: 0px;
+		left: 0px;
+
+	}
+	100% {
+		width: 800px;
+		height: 800px;
+		bottom: 500px;
+		left: 500px;
+	}
+}
+
+.circle {
+	width: 200px; 
+	height: 200px; 
+	border-radius: 50%
+	background-color: linear-gradient (magenta, white, gold);
+}
+
+
+
