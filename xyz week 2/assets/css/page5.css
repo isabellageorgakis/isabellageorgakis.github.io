@@ -1,73 +1,116 @@
-body {
-	font-family: Helvetica,Arial,sans-serif;
-	font-size: 60px;
-	text-align: center;
-}
 
 a {
 	color:red;
 }
 
-
-span {
-	color:red;
+.message {
+	font-size: 3.5vw;
+	color: white;
+	font-family: helvetica;
+	text-align: center;
+	padding-top: 5.75vw;
+	padding-bottom: 5.75vw;
+	background-color: black;
+	transform: rotate(22deg);
+	position: fixed;
+	bottom: 15vw;
+	left: -8vw;
+	white-space: nowrap; 
+	overflow: scroll;
+	width: 120%;
+	animation: swap 5s infinite alternate linear;
+	animation-delay: 5s;
 }
 
-.message {
-	font-size: 100px;
+@keyframes swap {
+	0% {
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
 
 }
 
 .box {
-	width: 100%;
-	background-color: red;
+	width: 120%;
+	font-family: helvetica;
+	font-size: 5vw;
+	text-align: center;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	background-color: black;
 	color: white;
+	transform: rotate(22deg);
 	position: fixed;
-	bottom: 20px;
+	bottom: 15vw;
+	left: -8vw;
 	white-space: nowrap; 
 	overflow: scroll;
+	animation: swap 5s infinite alternate linear;
 }
 
-.square {
-	width: 600px;
-	height: 200px;
-	border: 3px solid;
-	border-color: magenta; 
-	border-radius: 50%;
-	transform: rotate(40deg);
-	margin-left: 200px;
-	box-shadow: 00px 00px 20px 20px magenta;
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	animation: grow 5s infinite alternate linear; 
-
-
-
-}
-
-@keyframes grow {
+@keyframes swap {
 	0% {
-		width: 200px;
-		height: 200px;
-		bottom: 0px;
-		left: 0px;
+		opacity: 0%;
+	}
+
+	100% {
+		opacity: 100%;
+	}
+}
+
+.circle1 {
+	width: 10vw;
+	height: 10vw;
+	background-color: magenta;
+	filter: blur(2vw);
+	border-radius: 50%;
+	box-shadow: 00vw 00vw 2vw 2vw magenta;
+	position: fixed;
+	top: -5vw;
+	right: -5vw;
+	animation: colors 5s infinite alternate linear; 
+
+}
+
+@keyframes colors {
+	0% {
+		box-shadow: 00vw 00vw 20vw 20vw magenta;
+		background-color: magenta;
 
 	}
 	100% {
-		width: 800px;
-		height: 800px;
-		bottom: 500px;
-		left: 500px;
+		box-shadow: 00vw 00vw 20vw 20vw cyan;
+		background-color: cyan;
 	}
 }
 
-.circle {
-	width: 200px; 
-	height: 200px; 
-	border-radius: 50%
-	background-color: linear-gradient (magenta, white, gold);
+.circle2 {
+	width: 10vw;
+	height: 10vw;
+	background-color: magenta;
+	filter: blur(2vw);
+	border-radius: 50%;
+	box-shadow: 00vw 00vw 2vw 2vw magenta;
+	position: fixed;
+	bottom: -5vw;
+	left: -5vw;
+	animation: colors 5s infinite alternate linear; 
+
 }
 
+@keyframes colors {
+	0% {
+		box-shadow: 00vw 00vw 20vw 20vw magenta;
+		background-color: magenta;
+
+	}
+	100% {
+		box-shadow: 00vw 00vw 20vw 20vw cyan;
+		background-color: cyan;
+	}
+}
 
 
