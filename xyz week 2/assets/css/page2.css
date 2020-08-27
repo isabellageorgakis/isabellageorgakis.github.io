@@ -1,6 +1,43 @@
+body {
+	background-color: darkolivegreen;
+}
+
+.shakespeare {
+	position: fixed;
+	bottom: 35vw;
+	left: 0vw;
+	opacity: 60%;
+	animation: bounce 10s infinite alternate linear; 
+
+}
+
+@keyframes bounce {
+	0% {
+		bottom: 0vw;
+		left: 0vw;
+
+	}
+	25% {
+		bottom: 27vw;
+		left: 40vw;
+	}
+
+	50% {
+		bottom: 5vw;
+		left: 80vw;
+
+	}
+
+	100% {
+		bottom: 27vw;
+		left: 0vw;
+}
+}
+
 .word1 {
 	font-family: monaco;
 	font-size: 3vw;
+	color: white;
 	text-transform: uppercase;
 	text-align: left;
 	margin-top: 52vw;
@@ -9,6 +46,7 @@
 .word2 {
 	font-family: monaco;
 	font-size: 3vw;
+	color: white;
 	text-transform: uppercase;
 	text-align: center;
 }
@@ -16,6 +54,7 @@
 .word3 {
 	font-family: monaco;
 	font-size: 3vw;
+	color: white;
 	text-transform: uppercase;
 	text-align: right;
 	margin-top: 5vw;
@@ -25,6 +64,7 @@
 .mada {
 	font-family: monaco;
 	font-size: 1vw;
+	color: white;
 	text-transform: uppercase;
 	position: fixed;
 	bottom: 1vw;
@@ -35,6 +75,7 @@
 .OPE {
 	font-family: monaco;
 	font-size: 1vw;
+	color: white;
 	text-transform: uppercase;
 	position: fixed;
 	bottom: 0vw;
@@ -46,6 +87,7 @@
 .date {
 	font-family: monaco;
 	font-size: 1vw;
+	color: white;
 	text-transform: uppercase;
 	position: fixed;
 	bottom: 1vw;
