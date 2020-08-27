@@ -14,7 +14,7 @@ body {
 	display: inline-block;
 	width: 100vw;
 	height: 7vw;
-	border-top: 0.2vw solid white;
+	border-top: 0.1vw solid white;
 	opacity: 0%;
 	animation: tracking 10s infinite alternate linear;
 
@@ -39,7 +39,7 @@ body {
 	display: inline-block;
 	width: 100vw;
 	height: 7vw;
-	border-top: 0.2vw solid white;
+	border-top: 0.1vw solid white;
 	opacity: 0%;
 	animation: tracking 10s infinite alternate linear;
 	animation-delay: 2s;
@@ -65,7 +65,7 @@ body {
 	display: inline-block;
 	width: 100vw;
 	height: 7vw;
-	border-top: 0.2vw solid white;
+	border-top: 0.1vw solid white;
 	opacity: 0%;
 	animation: tracking 10s infinite alternate linear;
 	animation-delay: 4s;
@@ -90,8 +90,8 @@ body {
 	display: inline-block;
 	width: 100vw;
 	height: 7vw;
-	border-top: 0.2vw solid white;
-	border-bottom: 0.2vw solid white;
+	border-top: 0.1vw solid white;
+	border-bottom: 0.1vw solid white;
 	opacity: 0%;
 	animation: tracking 10s infinite alternate linear;
 	animation-delay: 6s;
