@@ -6,7 +6,6 @@ body {
 	position: fixed;
 	bottom: 35vw;
 	left: 0vw;
-	opacity: 60%;
 	animation: bounce 10s infinite alternate linear; 
 
 }
