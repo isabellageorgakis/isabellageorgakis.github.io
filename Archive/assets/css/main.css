@@ -1,0 +1,378 @@
+body {
+	background-color: black;
+
+}
+
+/* keyhole starting page */
+
+.keyhole img{
+	width: 100vw;
+	height: 100vh;
+}
+
+.keyhole {
+	position: fixed;
+	top: 0vw;
+	right: 0vw;
+	opacity: 100%;
+	transition: 2s;
+}
+
+.btn-keyhole {
+	position: fixed;
+	top: 6vw;
+	left: 42vw;
+	width: 15vw;
+	height: 39vw;
+	background-color: black;
+	opacity: 0%;
+}
+
+.remove {
+	display: none;
+}
+
+.btn-keyhole:hover {
+	cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🔑</text></svg>") 16 0,auto; 
+}
+
+.keyhole.active {
+	opacity: 0%;
+	transition: 2s;
+}
+
+
+/* image css */
+
+.header {
+	font-family: helvetica;
+	color: white;
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	top:0vw;
+	left: 12vw;
+	padding: 1.5vw;
+}
+
+.title {
+	font-size: 3vw ;
+
+}
+
+.yr {
+	font-size: 0.75vw ;
+
+}
+
+.btn-nav {
+	color: white;
+	font-family: helvetica;
+	font-size: 2vw;
+	position: fixed;
+	display: inline-block;
+	top: 1.5vw;
+	left: 5vw;
+	padding: 0.75vw;
+	border: 0.1vw solid white;
+	border-radius: 1vw;
+}
+
+.btn-nav:hover {
+	background-color: white;
+	color: black;
+	cursor:pointer;
+}
+
+.nav {
+	font-family: helvetica;
+	font-size: 1.5vw;
+	color: black;
+	background-color: white;
+	width:25%;
+	height: 17vw;
+	padding:2vw;
+	border-radius: 1vw;
+	position:fixed;
+	top:6vw;
+	left:5vw;
+	margin-left: -50vw;
+	transition: 2s;
+}
+
+.nav.active {
+	background-color: white;
+	margin-left: 0vw;
+	transition: 2s;
+}
+
+.btn {
+	border:0.1vw solid black;
+	padding:1vw;
+	border-radius: 1vw;
+	margin: 0.25vw;
+	display: inline-block;
+}
+
+.btn:hover {
+	background-color: black;
+	color: white;
+	cursor:pointer;
+}
+
+
+.container {
+	font-family: helvetica;
+	font-size: 1.5vw;
+	color: white;
+	display: flex;
+	flex-wrap:wrap;
+
+}
+
+.item {
+	width:50%;
+	padding: 5vw;
+	margin-top: 3vw;
+}
+
+/*specific widths */
+
+.item.coin {
+	width: 20%;
+}
+
+.item.key {
+	width: 33.33%;
+}
+
+.item.transport {
+	width: 33.33%
+}
+
+.item.coin.transport {
+	width: 20%;
+}
+
+.item.arts {
+	width: 50%;
+}
+
+.item.coin.arts {
+	width: 20%;
+}
+
+.item.ticket-small {
+	height: 30vw;
+}
+
+.item.ticket-small img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.item.ticket-small2 {
+	height: 20vw;
+}
+
+.item.ticket-small2 img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.item.ticket-mid {
+	height: 50vw;
+}
+
+.item.ticket-mid img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.item.ticket-mid2 {
+	height: 23vw;
+}
+
+.item.ticket-mid2 img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.item.hide {
+	display: none;
+}
+
+.item img {
+	width: 100%;
+}
+
+
+
+/* iphone css */
+
+@media (max-width: 500px) { 
+
+.keyhole img{
+	width: 100%;
+	height: 60%;
+	padding-top: 50vw;
+}
+
+.keyhole {
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0vw;
+	right: 0vw;
+}
+
+.btn-keyhole {
+	position: fixed;
+	top: 60vw;
+	left: 42vw;
+	width: 15vw;
+	height: 39vw;
+}
+
+
+.header {
+	font-family: helvetica;
+	color: white;
+	display: inline-block;
+	position: fixed;
+	width: 100%;
+	top:0vw;
+	left: 15vw;
+	padding: 2vw;
+}
+
+.title {
+	font-size: 5vw ;
+
+}
+
+.yr {
+	font-size: 1.5vw ;
+
+}
+
+.btn-nav {
+	color: white;
+	font-family: helvetica;
+	font-size: 3vw;
+	position: fixed;
+	display: inline-block;
+	top: 2vw;
+	left: 5vw;
+	padding: 1vw;
+	border: 0.1vw solid white;
+	border-radius: 1vw;
+}
+
+.nav {
+	font-family: helvetica;
+	font-size: 2.5vw;
+	color: black;
+	background-color: white;
+	width:36%;
+	height: 21vw;
+	padding:2vw;
+	border-radius: 1vw;
+	position:fixed;
+	top:9vw;
+	left:5vw;
+}
+
+.btn {
+	border:0.1vw solid black;
+	padding:1vw;
+	border-radius: 1vw;
+	margin: 0.25vw;
+	display: inline-block;
+}
+
+.container {
+	font-size: 2vw;
+}
+
+.item {
+	width:100%;
+	padding: 5vw;
+	margin-top: 5vw;
+}
+
+.item.coin {
+	width: 33.33%;
+}
+
+.item.key {
+	width: 50%;
+}
+
+.item.transport {
+	width: 50%
+}
+
+.item.coin.transport {
+	width: 33.33%;
+}
+
+.item.arts {
+	width: 100%;
+}
+
+.item.coin.arts {
+	width: 33.33%;
+}
+
+.item.ticket-small {
+	height: 50vw;
+}
+
+.item.ticket-small img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.item.ticket-small2 {
+	height: 33vw;
+}
+
+.item.ticket-small2 img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+.item.ticket-mid {
+	height: 100vw;
+}
+
+.item.ticket-mid img {
+	height: 100%;
+	width: auto;
+	display: block; 
+}
+
+.item.ticket-mid2 {
+	height: 33vw;
+}
+
+.item.ticket-mid2 img {
+	height: 100%;
+	width: auto;
+	display: block;
+}
+	
+
+
+
+
+
+
