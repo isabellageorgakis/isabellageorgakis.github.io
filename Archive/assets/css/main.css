@@ -98,6 +98,12 @@ body {
 
 }
 
+.about.active {
+	background-color: white;
+	margin-right: 0vw;
+	transition: 2s;
+}
+
 .btn-nav {
 	color: white;
 	font-family: helvetica;
