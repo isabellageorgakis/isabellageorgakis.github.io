@@ -109,7 +109,7 @@ body {
 
 .link5 {
 	font-family: helvetica neue;
-	font-size: 5vw; 
+	font-size: 5vw;
 	color: white;
 	letter-spacing: -0.2vw;
 	display: inline-block;
@@ -120,7 +120,6 @@ body {
 	opacity: 0%;
 	animation: tracking 10s infinite alternate linear;
 	animation-delay: 8s;
-
 }
 
 @keyframes tracking {
