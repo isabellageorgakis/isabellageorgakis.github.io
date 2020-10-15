@@ -11,7 +11,7 @@ $ (document).ready(function(){
 	});
 
 	$('.btn-about').click(function(){
-		$('.nav').toggleClass('active')
+		$('.about').toggleClass('active')
 	})
 
 	$('.btn-ticket').click(function(){
