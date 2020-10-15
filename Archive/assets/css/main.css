@@ -74,7 +74,7 @@ body {
 	color: black;
 	background-color: white;
 	width:30%;
-	height: 17vw;
+	height: 19vw;
 	padding:2vw;
 	border-radius: 1vw;
 	position:fixed;
@@ -96,6 +96,12 @@ body {
 	border: 0.1vw solid white;
 	border-radius: 1vw;
 
+}
+
+.btn-about:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
 }
 
 .about.active {
