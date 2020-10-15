@@ -318,7 +318,8 @@ body {
 	border-radius: 2vw;
 	position:fixed;
 	top:12vw;
-	right:0vw;
+	right:4vw;
+	margin-right: -55vw;
 }
 
 .btn-about {
@@ -359,7 +360,8 @@ body {
 	border-radius: 2vw;
 	position:fixed;
 	top:12vw;
-	left:4vw;
+	left:5vw;
+	margin-left: -55vw;
 }
 
 .btn {
