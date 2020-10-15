@@ -247,24 +247,24 @@ body {
 	position: fixed;
 	width: 100%;
 	top:0vw;
-	left: 15vw;
+	left: 22vw;
 	padding: 2vw;
 }
 
 .title {
-	font-size: 5vw ;
+	font-size: 7vw ;
 
 }
 
 .yr {
-	font-size: 1.5vw ;
+	font-size: 2vw ;
 
 }
 
 .btn-nav {
 	color: white;
 	font-family: helvetica;
-	font-size: 3vw;
+	font-size: 6vw;
 	position: fixed;
 	display: inline-block;
 	top: 2vw;
@@ -276,15 +276,15 @@ body {
 
 .nav {
 	font-family: helvetica;
-	font-size: 2.5vw;
+	font-size: 4vw;
 	color: black;
 	background-color: white;
-	width:36%;
-	height: 21vw;
-	padding:2vw;
+	width:40%;
+	height: 34vw;
+	padding:3vw;
 	border-radius: 1vw;
 	position:fixed;
-	top:9vw;
+	top:12vw;
 	left:5vw;
 }
 
@@ -303,7 +303,7 @@ body {
 .item {
 	width:100%;
 	padding: 5vw;
-	margin-top: 5vw;
+	margin-top: 8vw;
 }
 
 .item.coin {
