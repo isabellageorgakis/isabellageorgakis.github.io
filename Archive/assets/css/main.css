@@ -45,7 +45,7 @@ body {
 }
 
 
-/* image css */
+/* header css */
 
 .header {
 	font-family: helvetica;
@@ -123,6 +123,7 @@ body {
 	cursor:pointer;
 }
 
+/* image css */
 
 .container {
 	font-family: helvetica;
@@ -217,7 +218,7 @@ body {
 
 /* iphone css */
 
-@media (max-width: 500px) { 
+@media (max-width: 600px) { 
 
 .keyhole img{
 	width: 100%;
