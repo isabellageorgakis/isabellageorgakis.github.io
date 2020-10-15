@@ -271,27 +271,27 @@ body {
 	left: 5vw;
 	padding: 1vw;
 	border: 0.1vw solid white;
-	border-radius: 1.5vw;
+	border-radius: 2vw;
 }
 
 .nav {
 	font-family: helvetica;
-	font-size: 4vw;
+	font-size: 3vw;
 	color: black;
 	background-color: white;
-	width:40%;
-	height: 34vw;
+	width:46%;
+	height: 30vw;
 	padding:3vw;
-	border-radius: 1vw;
+	border-radius: 2vw;
 	position:fixed;
 	top:12vw;
-	left:5vw;
+	left:4vw;
 }
 
 .btn {
 	border:0.1vw solid black;
-	padding:1vw;
-	border-radius: 1vw;
+	padding:2vw;
+	border-radius: 2vw;
 	margin: 0.25vw;
 	display: inline-block;
 }
