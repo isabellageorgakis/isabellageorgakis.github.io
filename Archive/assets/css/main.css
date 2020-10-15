@@ -68,6 +68,11 @@ body {
 
 }
 
+.about {
+	font-family: helvetica;
+	color: white;
+}
+
 .btn-nav {
 	color: white;
 	font-family: helvetica;
