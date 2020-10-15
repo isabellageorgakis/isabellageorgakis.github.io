@@ -79,7 +79,7 @@ body {
 	border-radius: 1vw;
 	position:fixed;
 	top:6vw;
-	left:5vw;
+	right:5vw;
 	margin-right: -50vw;
 	transition: 2s;
 }

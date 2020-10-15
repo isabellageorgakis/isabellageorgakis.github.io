@@ -10,6 +10,10 @@ $ (document).ready(function(){
 		$('.nav').toggleClass('active');
 	});
 
+	$('.btn-about').click(function(){
+		$('.nav').toggleClass('active')
+	})
+
 	$('.btn-ticket').click(function(){
 		$('.item').addClass('hide');
 		$('.item.ticket').removeClass('hide');
