@@ -70,7 +70,32 @@ body {
 
 .about {
 	font-family: helvetica;
+	font-size: 1.5vw;
+	color: black;
+	background-color: white;
+	width:30%;
+	height: 17vw;
+	padding:2vw;
+	border-radius: 1vw;
+	position:fixed;
+	top:6vw;
+	left:5vw;
+	margin-right: -50vw;
+	transition: 2s;
+}
+
+.btn-about {
 	color: white;
+	font-family: helvetica;
+	font-size: 2vw;
+	position: fixed;
+	display: inline-block;
+	top: 1.5vw;
+	right: 5vw;
+	padding: 0.75vw;
+	border: 0.1vw solid white;
+	border-radius: 1vw;
+
 }
 
 .btn-nav {
