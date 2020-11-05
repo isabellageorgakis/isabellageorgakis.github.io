@@ -152,8 +152,8 @@ h6 {
 
 .intro {
 	font-size: 2vw;
-	padding-left: 24vw;
-	padding-right: 24vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	text-align: center;
 	width: 40%;
 }
@@ -172,8 +172,8 @@ h6 {
 .text {
 	font-size: 2vw;
 	text-indent: 5vw;
-	padding-left: 20vw;
-	padding-right: 20vw;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	text-align: left;
 	width: 60%;
 }
