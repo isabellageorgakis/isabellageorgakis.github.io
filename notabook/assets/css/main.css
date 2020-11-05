@@ -16,7 +16,7 @@ body {
 	transition: 2s;
 	padding: 4vw;
 	width: 65vw;
-	opacity: 100%
+	opacity: 100%;
 }
 
 .title.active {
