@@ -148,7 +148,8 @@ h6 {
 }
 
 .grid {
-	flex-wrap: wrap;
+	display: flex;
+	flex-wrap:wrap;
 }
 
 .intro {
