@@ -149,7 +149,7 @@ h5 {
 h6 {
 	font-size: 2vw;
 	padding-top: 3vw;
-	padding-bottom: 6vw;
+	padding-bottom: 5vw;
 	text-align: center;
 }
 
@@ -167,7 +167,7 @@ h6 {
 
 .titleimage {
 	padding: 3vw;
-
+	width: 40%;
 }
 
 .titleimage img {
