@@ -111,18 +111,20 @@ h3 {
 	padding: 1vw;
 	color: white;
 	background-color: black;
-	width: 25vw;
+	width: 100vw;
 	font-family: industry-inc-stencil, sans-serif;
 }
 
 .h1 {
 	font-size: 1vw;
 	padding: 1vw;
+	width: 25vw;
 	text-align: center;
 }
 
 .h2 {
 	font-size: 3vw;
+	width: 25vw;
 	text-align: center;
 }
 
