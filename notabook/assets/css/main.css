@@ -108,9 +108,10 @@ h2.active {
 }
 
 h3 {
-	padding: 4vw;
+	padding: 2vw;
 	color: white;
 	background-color: black;
+	font-family: industry-inc-stencil, sans-serif;
 }
 
 .h1 {
