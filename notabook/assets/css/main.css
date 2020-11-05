@@ -136,6 +136,11 @@ h6 {
 	text-align: center;
 }
 
+.grid {
+	flex-wrap: wrap;
+	
+}
+
 .intro {
 	font-size: 2vw;
 	padding-left: 24vw;
