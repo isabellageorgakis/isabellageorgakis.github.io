@@ -27,6 +27,11 @@ h2 {
 	padding-bottom: 2vw;
 }
 
+.container {
+	display: flex;
+	flex-wrap:wrap;
+}
+
 .article1 {
 	font-size: 3vw;
 	font-family: headline-gothic-atf, sans-serif;
@@ -34,8 +39,6 @@ h2 {
 	color: white;
 	position: fixed;
 	text-align: center;
-	top: 20vw;
-	left: 6vw;
 	width: 30vw;
 	padding: 2vw;
 }
@@ -47,9 +50,7 @@ h2 {
 	color: white;
 	position: fixed;
 	text-align: center;
-	top: 25vw;
-	left: 40.5vw;
-	width: 23vw;
+	width: 30vw;
 	padding: 2vw;
 }
 
@@ -60,9 +61,7 @@ h2 {
 	color: white;
 	position: fixed;
 	text-align: center;
-	top: 25vw;
-	right: 8vw;
-	width: 25vw;
+	width: 30vw;
 	padding: 2vw;
 }
 
