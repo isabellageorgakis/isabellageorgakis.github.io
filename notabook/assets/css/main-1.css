@@ -49,48 +49,6 @@ h2.active {
 	transition: 2s;
 }
 
-.article1 {
-	font-size: 3vw;
-	font-family: industry-inc-stencil, sans-serif;
-	background-color: black;
-	color: white;
-	position: fixed;
-	text-align: center;
-	top: 4vw;
-	left: -5vw;
-	transform: rotate(-90deg);
-	width: 33vh;
-	padding-top: 2vw;
-}
-
-.article2 {
-	font-size: 3vw;
-	font-family: industry-inc-stencil, sans-serif;
-	background-color: black;
-	color: white;
-	position: fixed;
-	text-align: center;
-	top: 21.5vw;
-	left: -5vw;
-	transform: rotate(-90deg);
-	width: 33vh;
-	padding-top: 2vw;
-}
-
-.article3 {
-	font-size: 3vw;
-	font-family: industry-inc-stencil, sans-serif;
-	background-color: black;
-	color: white;
-	position: fixed;
-	text-align: center;
-	top: 39vw;
-	left: -5vw;
-	transform: rotate(-90deg);
-	width: 33vh;
-	padding-top: 2vw;
-}
-
 /* article1 css */
 
 .container {
