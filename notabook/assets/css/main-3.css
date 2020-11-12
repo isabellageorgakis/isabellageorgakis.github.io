@@ -1,7 +1,7 @@
 body {
 	color: black;
 	font-size: 2vw;
-	font-family: industry, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	font-style: normal;
 }
 
@@ -12,7 +12,7 @@ h1 {
 	color: white;
 	background-color: black;
 	width: 90vw;
-	font-family: industry-inc-stencil, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 }
 
 .h1 {
@@ -37,7 +37,7 @@ h2 {
 h3 {
 	font-size: 5vw;
 	text-align: center;
-	font-family: industry-inc-base, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	border-top: black 1px solid;
 	border-bottom: black 1px solid;
 	padding: 3vw;

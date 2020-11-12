@@ -5,7 +5,7 @@ body {
 
 h1 {
 	font-size: 4vw;
-	font-family: industry-inc-stencil, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
 	position: fixed;
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
 	font-size: 10vw;
-	font-family: industry-inc-stencil, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
 	position: fixed;
@@ -33,7 +33,7 @@ h2 {
 
 .article1 {
 	font-size: 3vw;
-	font-family: industry-inc-stencil, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
 	position: fixed;
@@ -47,7 +47,7 @@ h2 {
 
 .article2 {
 	font-size: 3vw;
-	font-family: industry-inc-stencil, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
 	position: fixed;
@@ -61,7 +61,7 @@ h2 {
 
 .article3 {
 	font-size: 3vw;
-	font-family: industry-inc-stencil, sans-serif;
+	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
 	position: fixed;
