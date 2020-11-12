@@ -34,6 +34,19 @@ h2 {
 	width: 100%;
 }
 
+.image {
+	padding: 5px;
+	width: 33%;
+	font-size: 1vw;
+	font-family: bookman;
+}
+
+.image img {
+	margin-left: 0%;
+	width: 100%;
+	border: black 1px solid;
+}
+
 .article1 {
 	font-size: 3vw;
 	font-family: headline-gothic-atf, sans-serif;
