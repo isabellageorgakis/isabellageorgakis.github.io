@@ -3,6 +3,10 @@ body {
 	color: black;
 }
 
+a {
+	color: white;
+}
+
 h1 {
 	font-size: 4vw;
 	font-family: headline-gothic-atf, sans-serif;
