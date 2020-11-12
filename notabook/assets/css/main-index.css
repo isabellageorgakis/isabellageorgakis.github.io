@@ -8,12 +8,8 @@ h1 {
 	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
-	position: fixed;
 	text-align: center;
-	top: 12vw;
-	left: 13vw;
-	transform: rotate(00deg);
-	width: 75%;
+	width: 100%;
 	padding-top: 2vw;
 }
 
@@ -22,13 +18,9 @@ h2 {
 	font-family: headline-gothic-atf, sans-serif;
 	background-color: black;
 	color: white;
-	position: fixed;
 	text-align: center;
-	top: 17vw;
-	left: 13vw;
-	transform: rotate(00deg);
-	width: 75%;
-	padding-top: 2vw;
+	width: 100%;
+	padding-bottom: 2vw;
 }
 
 .article1 {
@@ -38,11 +30,10 @@ h2 {
 	color: white;
 	position: fixed;
 	text-align: center;
-	top: 4vw;
-	left: -5vw;
-	transform: rotate(-90deg);
-	width: 33vh;
-	padding-top: 2vw;
+	top: 20vw;
+	left: 6vw;
+	width: 30vw;
+	padding: 2vw;
 }
 
 .article2 {
@@ -52,11 +43,10 @@ h2 {
 	color: white;
 	position: fixed;
 	text-align: center;
-	top: 21.5vw;
-	left: -5vw;
-	transform: rotate(-90deg);
-	width: 33vh;
-	padding-top: 2vw;
+	top: 25vw;
+	left: 40.5vw;
+	width: 23vw;
+	padding: 2vw;
 }
 
 .article3 {
@@ -66,10 +56,9 @@ h2 {
 	color: white;
 	position: fixed;
 	text-align: center;
-	top: 39vw;
-	left: -5vw;
-	transform: rotate(-90deg);
-	width: 33vh;
-	padding-top: 2vw;
+	top: 25vw;
+	right: 8vw;
+	width: 25vw;
+	padding: 2vw;
 }
 
