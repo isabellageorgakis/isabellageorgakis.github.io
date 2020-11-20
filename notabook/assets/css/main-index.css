@@ -5,7 +5,8 @@ body {
 }
 
 a {
-	color: white;
+	color: black;
+	text-decoration: none;
 }
 
 h1 {
@@ -23,7 +24,7 @@ h1 {
 	width:100%;
 	padding:20px;
 	position:fixed;
-	top:0px;
+	top:6vw;
 	left:0px;
 	display: flex;
 	flex-wrap:wrap;
@@ -31,37 +32,37 @@ h1 {
 }
 
 .btn {
-	border:1px solid black;
+	border-bottom:1px solid black;
 	padding:10px;
-	border-radius: 10px;
 }
 
 .container {
 	display: flex;
 	flex-wrap:wrap;
 	width: 100%;
+	margin-top:10vw;
 }
 
 .image {
-	padding: 5px;
 	width: 33%;
 	font-size: 1vw;
-	margin-top:5vw;
 }
 
 .image img {
 	margin-left: 0%;
+	padding: 1vw;
+	border-radius: 2vw;
 	width: 100%;
-	border: black 1px solid;
+	mix-blend-mode: 
 }
 
 .article {
-	font-size: 3vw;
+	font-size: 1vw;
 	color: black;
 	background-color: white;
-	font-family: headline-gothic-atf, sans-serif;
 	text-align: center;
-	width: 33vw;
+	width: 20vw;
 	padding: 2vw;
+	border-bottom: 1px solid black;
 }
 
