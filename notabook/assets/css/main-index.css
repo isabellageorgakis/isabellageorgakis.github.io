@@ -39,7 +39,7 @@ h1 {
 .container {
 	display: flex;
 	flex-wrap:wrap;
-	width: 100%;
+	width: 80%;
 	margin-top:10vw;
 }
 
@@ -52,8 +52,18 @@ h1 {
 	margin-left: 0%;
 	padding: 1vw;
 	border-radius: 2vw;
-	width: 100%;
-	mix-blend-mode: 
+	width: 100%; 
+	filter: brightness(2);
+	filter: invert(1);
+}
+
+.noinvert img 	{
+	margin-left: 0%;
+	padding: 1vw;
+	border-radius: 2vw;
+	width: 100%; 
+	filter: contrast(300%);
+
 }
 
 .article {
