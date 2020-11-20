@@ -12,8 +12,28 @@ h1 {
 	font-size: 4vw;
 	font-family: headline-gothic-atf, sans-serif;
 	text-align: center;
+	position:fixed;
+	top:0px;
+	left:0px;
 	width: 100%;
 	padding-top: 2vw;
+}
+
+.nav {
+	width:100%;
+	padding:20px;
+	position:fixed;
+	top:0px;
+	left:0px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
+
+.btn {
+	border:1px solid black;
+	padding:10px;
+	border-radius: 10px;
 }
 
 .container {
@@ -26,7 +46,7 @@ h1 {
 	padding: 5px;
 	width: 33%;
 	font-size: 1vw;
-	font-family: bookman;
+	margin-top:5vw;
 }
 
 .image img {
@@ -35,31 +55,11 @@ h1 {
 	border: black 1px solid;
 }
 
-.article1 {
+.article {
 	font-size: 3vw;
+	color: black;
+	background-color: white;
 	font-family: headline-gothic-atf, sans-serif;
-	background-color: black;
-	color: white;
-	text-align: center;
-	width: 33vw;
-	padding: 2vw;
-}
-
-.article2 {
-	font-size: 3vw;
-	font-family: headline-gothic-atf, sans-serif;
-	background-color: black;
-	color: white;
-	text-align: center;
-	width: 33vw;
-	padding: 2vw;
-}
-
-.article3 {
-	font-size: 3vw;
-	font-family: headline-gothic-atf, sans-serif;
-	background-color: black;
-	color: white;
 	text-align: center;
 	width: 33vw;
 	padding: 2vw;
