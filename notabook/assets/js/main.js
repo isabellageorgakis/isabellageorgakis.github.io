@@ -1,20 +1,37 @@
 	$ (document).ready(function(){
 		console.log('ready')
 
-		$('.article1').click(function(){
-		$('.container').toggleClass('active');
-		});
+		$('.btn-resent').click(function(){
+			$('.article').removeClass('hide');
+		})
 
-		$('.article1').click(function(){
-		$('.title').toggleClass('active');
-		});
+		$('.btn-politics').click(function(){
+			$('.article').addClass('hide');
+			$('.article.politics').removeClass('hide')
+		})
 
-		$('.article1').click(function(){
-		$('h1').toggleClass('active');
-		});
+		$('.btn-business').click(function(){
+			$('.article').addClass('hide');
+			$('.article.business').removeClass('hide')
+		})
 
-		$('.article1').click(function(){
-		$('h2').toggleClass('active');
-		});
+		$('.btn-tech').click(function(){
+			$('.article').addClass('hide');
+			$('.article.tech').removeClass('hide')
+		})
 
-	})
+		$('.btn-science').click(function(){
+			$('.article').addClass('hide');
+			$('.article.science').removeClass('hide')
+		})
+
+		$('.btn-healthbeauty').click(function(){
+			$('.article').addClass('hide');
+			$('.article.healthbeauty').removeClass('hide')
+		})
+
+		$('.btn-celebrity').click(function(){
+			$('.article').addClass('hide');
+			$('.article.celebrity').removeClass('hide')
+		})
+
