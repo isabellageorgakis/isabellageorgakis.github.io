@@ -58,6 +58,14 @@ h4 {
 	padding: 1vw;
 	border-radius: 2vw;
 	width: 100%; 
+	filter: grayscale(1) contrast(250%);
+}
+
+.noedit img {
+	margin-left: 0%;
+	padding: 1vw;
+	border-radius: 2vw;
+	width: 100%; 
 	filter: grayscale(1) contrast(150%);
 }
 
