@@ -73,11 +73,6 @@ h4 {
 	filter: grayscale(1) contrast(250%);
 }
 
-.grid2 {
-	display: flex;
-	flex-wrap:wrap;
-}
-
 .text {
 	font-size: 1.5vw;
 	font-family: bookman;
@@ -92,19 +87,7 @@ h4 {
 	text-indent: 0px;
 }
 
-.onepara {
-	text-indent: 0px; 
-	font-size: 2.5vw;
-	font-weight: bold;
-}
-
-.sixpara {
-	text-indent: 0px; 
-	font-size: 2.5vw;
-	font-weight: bold;
-}
-
-.ninepara {
+.para.quote {
 	text-indent: 0px; 
 	font-size: 2.5vw;
 	font-weight: bold;
