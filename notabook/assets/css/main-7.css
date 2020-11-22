@@ -69,6 +69,14 @@ h4 {
 	filter: grayscale(1) contrast(150%);
 }
 
+.invert img {
+	margin-left: 0%;
+	padding: 1vw;
+	border-radius: 2vw;
+	width: 100%; 
+	filter: invert(1);
+}
+
 .grid2 {
 	display: flex;
 	flex-wrap:wrap;
