@@ -136,4 +136,19 @@ a {
 	padding: 2vw;
 }
 
+@media (max-width: 600px) {
+
+	h1 {
+		font-size: 10vw;
+	}
+
+	.simart {
+		width: 50%;
+		font-size: 2vw;
+	}
+
+
+
+
+}
 
