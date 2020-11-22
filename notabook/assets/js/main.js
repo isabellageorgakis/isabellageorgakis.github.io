@@ -35,5 +35,5 @@
 			$('.article.celebrity').removeClass('hide');
 		});
 
-		});
+	});
 
