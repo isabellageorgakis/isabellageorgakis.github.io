@@ -16,3 +16,9 @@ h1 {
 	width: 100%;
 	padding-top: 2vw;
 }
+
+.text {
+	width: 50%; 
+	margin: auto;
+	font-size: 2vw;
+}
