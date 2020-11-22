@@ -8,23 +8,12 @@ body {
 /* article1 css */
 
 h1 {
-	padding: 1vw;
-	color: white;
-	background-color: black;
+	font-size: 4vw;
 	font-family: headline-gothic-atf, sans-serif;
-}
-
-.h1 {
-	font-size: 1vw;
-	padding: 0.5vw;
-	width: 20vw;
 	text-align: center;
-}
-
-.h2 {
-	font-size: 3vw;
-	width: 20vw;
-	text-align: center;
+	width: 100%;
+	padding: 2vw;
+	border-bottom: 1px solid grey;
 }
 
 h2 {
@@ -37,14 +26,15 @@ h3 {
 	font-size: 3vw;
 	text-align: center;
 	font-family: headline-gothic-atf, sans-serif;
-	border-top: black 1px solid;
-	border-bottom: black 1px solid;
+	border-top: grey 1px solid;
+	border-bottom: grey 1px solid;
 	padding: 3vw;
 }
 
 .grid {
 	display: flex;
 	flex-wrap:wrap;
+	border-bottom: grey 1px solid;
 }
 
 h4 {
@@ -65,8 +55,18 @@ h4 {
 
 .image img {
 	margin-left: 0%;
-	width: 100%;
-	border: black 1px solid;
+	padding: 1vw;
+	border-radius: 2vw;
+	width: 100%; 
+	filter: invert(1);
+}
+
+.noinvert img 	{
+	margin-left: 0%;
+	padding: 1vw;
+	border-radius: 2vw;
+	width: 100%; 
+	filter: grayscale(1) contrast(250%);
 }
 
 .grid2 {
@@ -118,23 +118,40 @@ p {
 	padding-top: 1vw;
 }
 
+.simart {
+	width: 30%;
+	text-align: center;
+	padding: 3vw;
+	margin: auto;
+}
+
+.footer {
+	border-top: 1px solid grey;
+	font-size: 2vw;
+	font-family: headline-gothic-atf, sans-serif;
+	text-align: left;
+	padding: 2vw;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
 .fgrid {
 	display: flex;
 	flex-wrap:wrap;
 	width: 100%;
 }
 
-.foot {
-	background-color: black;
-	color: white;
-	width: 33.33%;
-	text-align: center;
+.foottext {
+	font-size: 1vw;
+	font-family: helvetica;
+	width: 20%;
+	text-align: left;
 	padding: 2vw;
 }
 
-a {
-	color: white;
-}
 
 
 
