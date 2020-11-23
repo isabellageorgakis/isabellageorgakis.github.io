@@ -173,6 +173,7 @@ body {
 	color: white;
 	display: flex;
 	flex-wrap:wrap;
+	padding-bottom: 10vw;
 
 }
 
@@ -186,6 +187,19 @@ body {
 	padding: 1vw;
 	border-bottom: solid 1px white;
 
+}
+
+.footer {
+	font-family: helvetica;
+	font-size: 1vw;
+	color: white;
+	padding: 5vw;
+}
+
+.fgrid {
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
 }
 
 /*specific widths */
@@ -261,26 +275,6 @@ body {
 .item img {
 	width: 100%;
 }
-
-#myBtn {
- 	display: none; 
- 	font-size: 1.5vw;
-  	position: fixed; 
-	bottom:6vw;
-	right:5vw;
-  	z-index: 99; 
-  	border: white 1px solid; 
-  	color: white; 
-  	cursor: pointer; 
-  	padding: 1vw; 
-  	border-radius: 1vw; 
-  	background-color: black;
-
-#myBtn:hover {
-  background-color: white; 
-  color: black;
-}
-
 
 
 /* iphone css */
