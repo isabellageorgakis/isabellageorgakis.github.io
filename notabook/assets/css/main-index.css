@@ -73,13 +73,19 @@ h1 {
 }
 
 .article {
-	font-size: 1vw;
+	font-size: 1.2vw;
 	color: black;
 	background-color: white;
-	text-align: center;
+	text-align: left;
 	width: 20vw;
 	padding: 2vw;
 	border-bottom: 1px solid grey;
+}
+
+.bold {
+	font-size: 1vw;
+	transform-style: bold;
+	padding: 1vw;
 }
 
 .article.hide {
