@@ -169,7 +169,7 @@ body {
 
 .container {
 	font-family: helvetica;
-	font-size: 1.5vw;
+	font-size: 1vw;
 	color: white;
 	display: flex;
 	flex-wrap:wrap;
@@ -180,6 +180,12 @@ body {
 	width:50%;
 	padding: 5vw;
 	margin-top: 3vw;
+}
+
+.info {
+	padding: 1vw;
+	border-bottom: solid 1px white;
+
 }
 
 /*specific widths */
@@ -254,6 +260,25 @@ body {
 
 .item img {
 	width: 100%;
+}
+
+#myBtn {
+ 	display: none; 
+ 	font-size: 1.5vw;
+  	position: fixed; 
+	bottom:6vw;
+	right:5vw;
+  	z-index: 99; 
+  	border: white 1px solid; 
+  	color: white; 
+  	cursor: pointer; 
+  	padding: 1vw; 
+  	border-radius: 1vw; 
+}
+
+#myBtn:hover {
+  background-color: white; 
+  color: black;
 }
 
 
@@ -445,6 +470,8 @@ body {
 	width: auto;
 	display: block;
 }
+
+
 	
 
 
