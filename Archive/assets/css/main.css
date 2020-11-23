@@ -274,7 +274,7 @@ body {
   	cursor: pointer; 
   	padding: 1vw; 
   	border-radius: 1vw; 
-  	background-color: transparent;
+  	background-color: black;
 
 #myBtn:hover {
   background-color: white; 
