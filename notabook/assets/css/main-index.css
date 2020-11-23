@@ -28,6 +28,7 @@ h1 {
 .btn {
 	border-bottom:1px solid black;
 	padding:2vw;
+	cursor: pointer;
 }
 
 
