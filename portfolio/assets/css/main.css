@@ -40,7 +40,7 @@ body {
 	color: black;
 	background-color: white;
 	width:30%;
-	height: 50vw;
+	height: 35vw;
 	padding:1.5vw;
 	border-radius: 1vw;
 	position:fixed;
@@ -48,6 +48,24 @@ body {
 	right: 1.5vw;
 	margin-right: -40vw;
 	transition: 2s;
+}
+
+.works.active {
+	margin-right: 0vw;
+	transition: 2s;
+}
+
+.btn-works:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.x {
+	text-align: right;
+}
+
+.x:hover {
+	cursor: pointer;
 }
 
 .contact {
@@ -103,21 +121,12 @@ body {
   	color: black;
 }
 
-.footer {
-	font-size: 3vw;
-	position: fixed;
-	right: 0px;
-	bottom: 0px;
-	padding: 1.5vw;
-}
-
 .image {
 	padding-top: 10vw;
 }
 
 .image img {
 	width: 100%;
-
 }
 
 .gif {
@@ -133,6 +142,18 @@ body {
 .book img {
 	padding-left: 20vw;
 	padding-right: 20vw;
+}
+
+.image.hide {
+	display: none;
+}
+
+.footer {
+	font-size: 3vw;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	padding: 1.5vw;
 }
 
 
