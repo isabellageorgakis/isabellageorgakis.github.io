@@ -4,6 +4,22 @@ body {
 	color: black;
 }
 
+a {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1vw;
+	padding-top: 3vw;
+	padding-left: 1.5vw;
+	width: 40%;
+	line-height: 2.5vw;
+	color: black;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
 .header {
 	font-size: 3vw;
 	display: flex;
