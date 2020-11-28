@@ -42,5 +42,10 @@ $ (document).ready(function(){
 		$('.image.EA').removeClass('hide');
 	});
 
+	$('.btn-AA').click(function(){
+		$('.image').addClass('hide');
+		$('.image.AA').removeClass('hide');
+	});
+
 })
 
