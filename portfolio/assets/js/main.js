@@ -47,6 +47,11 @@ $ (document).ready(function(){
 		$('.image.AA').removeClass('hide');
 	});
 
+	$('.btn-WW').click(function(){
+		$('.image').addClass('hide');
+		$('.image.WW').removeClass('hide');
+	});
+
 	$('.main').click(function(){
 		$('.image').removeClass('hide');
 	});
