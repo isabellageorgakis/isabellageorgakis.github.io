@@ -32,14 +32,81 @@ body {
 	padding-top: 2vw;
 }
 
+.works {
+	font-size: 1.5vw;
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	color: black;
+	background-color: white;
+	width:30%;
+	height: 50vw;
+	padding:1.5vw;
+	border-radius: 1vw;
+	position:fixed;
+	top: 1.5vw;
+	right: 1.5vw;
+	margin-right: -40vw;
+	transition: 2s;
+}
+
+.contact {
+	font-size: 1.5vw;
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	color: black;
+	background-color: white;
+	width:30%;
+	height: 18vw;
+	padding:1.5vw;
+	border-radius: 1vw;
+	position:fixed;
+	bottom: 1.5vw;
+	right: 1.5vw;
+	margin-right: -40vw;
+	transition: 2s;
+}
+
+.title {
+	font-family: helvetica;
+	font-size: 2vw;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.contact.active {
+	margin-right: 0vw;
+	transition: 2s;
+}
+
+.btn-contact:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.close {
+	text-align: right;
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+.fa {
+  	padding-right: 1vw;
+  	text-decoration: none;
+  	border-radius: 1vw;
+}
+
+.fa-instagram {
+  	color: black;
+}
+
 .footer {
 	font-size: 3vw;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	width: 100%;
 	position: fixed;
-	left: 0px;
+	right: 0px;
 	bottom: 0px;
 	padding: 1.5vw;
 }
