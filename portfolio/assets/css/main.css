@@ -1,7 +1,71 @@
 body {
-	background-color: ivory;
+	background-color: lavender;
 	font-family: helvetica;
 	color: black;
+}
+
+.header {
+	font-size: 3vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	padding: 1.5vw;
+}
+
+.text {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 2vw;
+	padding-top: 14vw;
+	padding-bottom: 10vw;
+	padding-left: 1.5vw;
+	width: 40%;
+	line-height: 2.5vw;
+}
+
+.p1 {
+	padding-top: 2vw;
+}
+
+.footer {
+	font-size: 3vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	padding: 1.5vw;
+}
+
+.image {
+	padding-top: 10vw;
+}
+
+.image img {
+	width: 100%;
+
+}
+
+.gif {
+	padding-top: 10vw;
+}
+
+.gif video {
+	width: 100%;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.book img {
+	padding-left: 20vw;
+	padding-right: 20vw;
 }
 
 
