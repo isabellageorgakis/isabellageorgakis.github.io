@@ -16,14 +16,29 @@ body {
 	padding: 1.5vw;
 }
 
+.main:hover {
+	cursor: pointer;
+	color: white;
+}
+
 .text {
 	font-family: ibm-plex-serif,sans-serif;
 	font-style: italic;
 	font-weight: 300;
 	font-size: 2vw;
-	padding-top: 14vw;
+	padding-top: 12vw;
 	padding-bottom: 10vw;
 	padding-left: 1.5vw;
+	width: 40%;
+	line-height: 2.5vw;
+}
+
+.text2 {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 2vw;
+	padding-bottom: 5vw;
 	width: 40%;
 	line-height: 2.5vw;
 }
@@ -57,6 +72,10 @@ body {
 
 .btn-works:hover {
 	color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
 	cursor: pointer;
 }
 
@@ -121,8 +140,21 @@ body {
   	color: black;
 }
 
+/*container*/
+
+.desc {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1vw;
+	padding-left: 1.5vw;
+	padding-right: 40vw;
+	line-height: 1.5vw;	
+	border-top: 1px solid black;
+}
+
 .image {
-	padding-top: 10vw;
+	padding-top: 5vw;
 }
 
 .image img {
@@ -130,7 +162,7 @@ body {
 }
 
 .gif {
-	padding-top: 10vw;
+	padding-top: 5vw;
 }
 
 .gif video {
@@ -144,8 +176,21 @@ body {
 	padding-right: 20vw;
 }
 
+.half {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.half img {
+	width: 50%;
+}
+
 .image.hide {
 	display: none;
+}
+
+.end {
+	padding-bottom: 5vw;
 }
 
 .footer {

@@ -47,5 +47,9 @@ $ (document).ready(function(){
 		$('.image.AA').removeClass('hide');
 	});
 
+	$('.main').click(function(){
+		$('.image').removeClass('hide');
+	});
+
 })
 
