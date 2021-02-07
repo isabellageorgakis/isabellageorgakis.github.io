@@ -191,6 +191,18 @@ a:hover {
 	padding-right: 20vw;
 }
 
+.oneofthree {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.oneofthree img {
+	width: 33%;
+	height: 33%;
+	padding: 2vw;
+}
+
 .half {
 	display: flex;
 	flex-wrap: wrap;
@@ -198,6 +210,9 @@ a:hover {
 
 .half img {
 	width: 50%;
+	height: 50%;
+	padding-left: 2vw;
+	padding-right: 2vw;
 }
 
 .image.hide {
