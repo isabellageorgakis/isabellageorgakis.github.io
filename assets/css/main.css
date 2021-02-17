@@ -1,0 +1,235 @@
+body {
+	background-color: lavender;
+	font-family: helvetica;
+	color: black;
+}
+
+a {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1vw;
+	padding-left: 1.5vw;
+	width: 40%;
+	line-height: 2.5vw;
+	color: black;
+}
+
+a:hover {
+	cursor: pointer;
+}
+
+.header {
+	font-size: 3vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	padding: 1.5vw;
+}
+
+.main:hover {
+	cursor: pointer;
+	color: white;
+}
+
+.text {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 2vw;
+	padding-top: 12vw;
+	padding-bottom: 10vw;
+	padding-left: 1.5vw;
+	width: 40%;
+	line-height: 2.5vw;
+}
+
+.text2 {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 2vw;
+	padding-bottom: 5vw;
+	width: 40%;
+	line-height: 2.5vw;
+}
+
+.p1 {
+	padding-top: 2vw;
+}
+
+.works {
+	font-size: 1.5vw;
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	color: black;
+	background-color: white;
+	width:30%;
+	height: 35vw;
+	padding:1.5vw;
+	border-radius: 1vw;
+	position:fixed;
+	top: 1.5vw;
+	right: 1.5vw;
+	margin-right: -40vw;
+	transition: 2s;
+}
+
+.works.active {
+	margin-right: 0vw;
+	transition: 2s;
+}
+
+.btn-works:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.x {
+	text-align: right;
+}
+
+.x:hover {
+	cursor: pointer;
+}
+
+.contact {
+	font-size: 1.5vw;
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	color: black;
+	background-color: white;
+	width:30%;
+	height: 18vw;
+	padding:1.5vw;
+	border-radius: 1vw;
+	position:fixed;
+	bottom: 1.5vw;
+	right: 1.5vw;
+	margin-right: -40vw;
+	transition: 2s;
+}
+
+.title {
+	font-family: helvetica;
+	font-size: 2vw;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.contact.active {
+	margin-right: 0vw;
+	transition: 2s;
+}
+
+.btn-contact:hover {
+	color: white;
+	cursor: pointer;
+}
+
+.close {
+	text-align: right;
+}
+
+.close:hover {
+	cursor: pointer;
+}
+
+.fa {
+  	padding-right: 1vw;
+  	text-decoration: none;
+  	border-radius: 1vw;
+}
+
+.fa-instagram {
+  	color: black;
+}
+
+/*container*/
+
+.desc {
+	font-family: ibm-plex-serif,sans-serif;
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1vw;
+	padding-left: 1.5vw;
+	padding-right: 40vw;
+	line-height: 1.5vw;	
+	border-top: 1px solid black;
+}
+
+.image {
+	padding-top: 5vw;
+}
+
+.image img {
+	width: 100%;
+}
+
+.gif {
+	padding-top: 5vw;
+}
+
+.gif video {
+	width: 100%;
+	padding-left: 10vw;
+	padding-right: 10vw;
+}
+
+.book img {
+	padding-left: 20vw;
+	padding-right: 20vw;
+}
+
+.oneofthree {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.oneofthree img {
+	width: 33%;
+	height: 33%;
+	padding: 2vw;
+}
+
+.half {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.half img {
+	width: 50%;
+	height: 50%;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+.image.hide {
+	display: none;
+}
+
+.end {
+	padding-bottom: 5vw;
+}
+
+.footer {
+	font-size: 3vw;
+	position: fixed;
+	right: 0px;
+	bottom: 0px;
+	padding: 1.5vw;
+}
+
+
+
